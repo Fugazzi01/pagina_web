@@ -51,7 +51,20 @@ header {
 }
 
 .banner button {
+    opacity: 0.8;
     font-family: "Mulish" serif;
-    color: black;
-    background-color: purple;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    background: #7F00FF;
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    font-style: italic;
 }
