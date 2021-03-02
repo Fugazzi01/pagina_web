@@ -7,6 +7,10 @@ Novo projeto
 
 O controle das tarefas será feito diretamente no Github
 
+## alterações:
+
+Implementação de variaveis das cores no código CSS.
+
 ## icon's
 
 :package: Nova funcionalidade,
