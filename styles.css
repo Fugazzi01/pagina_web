@@ -19,8 +19,8 @@
 }
 
 .menu-btn {
-    width: 3rem;
-    height: 3rem;
+    width: 3.3rem;
+    height: 3.3rem;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -28,8 +28,14 @@
     z-index: 100;
     right: 2rem;
     top: 2rem;
+    border-radius: 5px;
     transition: all 0.5s ease-in-out;
+    border: transparent;
     /* border: 3px solid #fff; */
+}
+
+.menu-btn:hover {
+    border: 0.2rem solid var(--myGray);
 }
 
 .show_menu .menu-btn {
@@ -144,7 +150,7 @@ header {
 }
 
 .banner button {
-    opacity: 0.8;
+    opacity: 0;
     font-family: var(--font-action);
     color: var(--myWhite-a);
     text-transform: uppercase;
@@ -156,7 +162,6 @@ header {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    opacity: 0;
     animation: movBanner 1s 0.9s forwards;
 }
 
@@ -204,7 +209,7 @@ header {
 }
 
 .menu_link {
-    font-family: var(--font-secundary);
+    font-family: var(--font-primary);
     font-size: 2rem;
     color: var(--myGray);
     transition: color 0.8s;
@@ -238,7 +243,7 @@ header {
 }
 
 .sec-knoledge {
-    background-color: var(--myGray-w);
+    background-color: var(--myWhite-s);
 }
 
 .sec-header {
@@ -290,4 +295,36 @@ header {
 .knoledge:nth-child(6) {
     grid-column: 11 / 14;
     grid-row: 5 / -1;
+}
+
+.knoledge-header {
+    display: flex;
+    align-items: center;
+    color: var(--myGray);
+}
+
+.knoledge-header i {
+    font-size: 2.5rem;
+}
+
+.knoledge-header h3 {
+    font-family: var(--font-secundary);
+    font-size: 2rem;
+    padding-left: 0.5rem;
+}
+
+.knoledge-text {
+    font-family: var(--font-secundary);
+    margin-top: 1rem;
+}
+
+.knoledge-img-wrapper {
+    grid-column: 7/11;
+    grid-row: 2/6;
+    width: 100%;
+}
+
+.knoledge-img-wrapper img {
+    object-fit: cover;
+    width: 100%;
 }
