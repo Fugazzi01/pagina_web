@@ -17,3 +17,8 @@ Implementação de variaveis das cores no código CSS.
 :up: Atualização,
 :beetle: Correção de bug,
 :checkered_flag: release
+
+## Link's e smooth scrool
+
+A criação de link's internos e externos no menu lateral.
+Scrool entre link's em smooth style.
